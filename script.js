@@ -89,4 +89,4 @@ function validarCorrecao() {
 
     imagemIcone.classList.toggle('erro', containsAcentos || containsMaiusculas);
 }
-
+ 
