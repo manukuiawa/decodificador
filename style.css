@@ -187,3 +187,49 @@ header {
     font-size: 1.2rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden; /* Evita o scroll horizontal */
+    }
+
+    #area_texto {
+       margin-left: 4rem;
+    }
+
+    .secao__resultado {
+        position: relative;
+        top: 85rem; 
+    }
+
+    .icone-correcao {
+        margin-left: 5.5rem;
+        position: relative;
+        top: -6rem;
+        white-space: nowrap; /* não deixa quebrar a linha */
+    } 
+
+    .img_icone {
+        margin-left: 4rem;
+        position: relative;
+        top: -6rem;
+    }
+
+    #button_criptografar {
+        height: 67px;
+        width: 220px;
+        margin-left: 2.8rem;
+       position: relative;
+       top: -3.4rem;
+    }
+
+    #button_descriptografar {
+        height: 67px;
+        width: 220px;
+        margin-left: 18rem;
+        position: relative;
+        top: -12rem;
+    }
+
+ }
